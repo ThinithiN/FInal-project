@@ -1,0 +1,72 @@
+.frame-green {
+  border: 5px solid green;
+}
+
+.frame-red {
+  border: 5px solid red;
+}
+
+.AuthScreen {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.AuthScreen .Head {
+  flex: 0 0 60px;
+  display: flex;
+  flex-direction: row;
+
+  display: flex;
+  /* margin: 2px; */
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex: 1 1 auto;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../../assets/AuthScreen/authquiz1.jpg"); /* Replace with your image URL */
+}
+
+.Auth-form {
+  width: 520px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.Auth-form .text-center {
+  margin-top: 10px;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.AuthScreen .Bot {
+  flex: 0 0 90px;
+}

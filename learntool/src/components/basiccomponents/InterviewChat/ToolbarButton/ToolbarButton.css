@@ -1,0 +1,85 @@
+.toolbar-button2 {
+  display: flex;
+  color: #0f6dd3;
+  font-size: 60px;
+  transition: all 0.1s;
+  background-color: rgb(133, 216, 236);
+
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease; /* Smooth transition */
+
+  opacity: 0.6;
+}
+
+.toolbar-button2:hover {
+  cursor: pointer;
+  color: #0063ce;
+  width: 120px; /* Increase width on hover */
+  height: 120px; /* Increase height on hover */
+  font-size: 80px;
+  opacity: 0.7;
+
+  background-color: aqua;
+}
+
+.toolbar-button2.active {
+  color: #007aff;
+  opacity: 1;
+  background-color: aqua;
+
+  animation: changeSize 1s infinite; /* Apply the animation */
+}
+
+.toolbar-button3 {
+  display: flex;
+  color: #4cb422;
+  font-size: 60px;
+  transition: all 0.1s;
+  background-color: rgb(40, 90, 35);
+
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease; /* Smooth transition */
+
+  opacity: 0.6;
+}
+
+.toolbar-button3:hover {
+  cursor: pointer;
+  color: #00ce3e;
+  width: 120px; /* Increase width on hover */
+  height: 120px; /* Increase height on hover */
+  font-size: 80px;
+  opacity: 0.7;
+
+  background-color: rgb(142, 236, 133);
+}
+
+.toolbar-button3.active {
+  color: #218f58;
+  opacity: 1;
+  background-color: rgb(142, 236, 133);
+
+  animation: changeSize 1s infinite; /* Apply the animation */
+}
+
+@keyframes changeSize {
+  0%,
+  100% {
+    /* Initial and final sizes */
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    /* Midway sizes */
+    width: 120px;
+    height: 120px;
+  }
+}

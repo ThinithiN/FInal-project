@@ -1,0 +1,351 @@
+.MCQGeneralScreen {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.MCQGeneralScreen .Top {
+  flex: 0 0 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.MCQGeneralScreen .Bot {
+  flex: 0 0 90px;
+}
+
+.MCQGeneralScreen .Mid {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../../assets/AuthScreen/authquiz2.jpg");
+
+}
+
+.MCQGeneralScreen .q-mid-top {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.MCQGeneralScreen .q-mid-bot {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.MCQGeneralScreen .q-view1 {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.MCQGeneralScreen .q-view2 {
+  flex: 0 0 200px;
+
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+}
+
+.MCQGeneralScreen .q-view2 img{
+  width: 200px; /* Set your desired width */
+  height: 200px; /* Set your desired height */
+}
+
+
+.MCQGeneralScreen .q-view2 video{
+  width: 200px; /* Set your desired width */
+  height: 200px; /* Set your desired height */
+}
+
+
+.MCQGeneralScreen .quiz-Topic {
+  flex: 0 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.MCQGeneralScreen .quiz-Topic p {
+  font-size: 30px; /* Set the font size */
+  font-weight: bold; /* Set the font weight (e.g., bold, normal) */
+
+  color: #333; /* Set the text color */
+  
+}
+
+.MCQGeneralScreen .quiz-Helper {
+  flex: 0 0 20px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.MCQGeneralScreen .quiz-Helper p {
+  font-size: 13px; /* Set the font size */
+  font-weight: bold; /* Set the font weight (e.g., bold, normal) */
+
+  color: #e74a4a; /* Set the text color */
+}
+
+.MCQGeneralScreen .stat-box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+
+  &:hover {
+    font-size: 38px;
+    transform: scale(1.1); /* Scale the element up by 10% on hover */
+  }
+}
+
+.MCQGeneralScreen .stat-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2px;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.MCQGeneralScreen .q-box-holder {
+  margin: 10px;
+  border: solid 3px black;
+  border-radius: 15px;
+  min-width: 400px;
+
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: hidden; */
+}
+
+.MCQGeneralScreen .q-page-controls {
+  margin: 2px 10px 2px 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-width: 400px;
+}
+
+.MCQGeneralScreen .q-page-cont-next {
+  flex: 0 0 100px;
+  display: flex;
+  justify-content: flex-startedOn;
+  padding: 5px;
+}
+
+.MCQGeneralScreen .q-page-cont-prev {
+  flex: 0 0 100px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.MCQGeneralScreen .q-page-cont-retry {
+  flex: 0 0 120px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.MCQGeneralScreen .q-page-cont-finish {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.MCQGeneralScreen .btn-finish-test {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0.4em 3em;
+  border-radius: 10px;
+  border: 1px solid #eceadf;
+  color: #f3e992;
+  background: linear-gradient(
+    180deg,
+    rgb(206, 55, 62) 50%,
+    rgb(234, 106, 62) 100%
+  );
+  background-size: 1em 10em;
+}
+.MCQGeneralScreen .btn-finish-test:hover {
+  background-position: bottom;
+  transition: all 300ms ease-in;
+}
+
+.MCQGeneralScreen .q-page-info {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 15px;
+  min-width: 400px;
+}
+
+.MCQGeneralScreen .q-page-info-left {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 200px;
+  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+
+.MCQGeneralScreen .q-page-info-right {
+  display: flex;
+  flex: 0 0 250px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.MCQGeneralScreen .loaderWarapper {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+}
+
+.MCQGeneralScreen .loader {
+  width: 60px;
+}
+
+.MCQGeneralScreen .loader-wheel {
+  animation: spin 1s infinite linear;
+  border: 2px solid rgba(30, 30, 30, 0.5);
+  border-left: 4px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+.MCQGeneralScreen .loader-text {
+  color: #fff;
+  font-family: arial, sans-serif;
+}
+
+.MCQGeneralScreen .loader-text:after {
+  content: "Loading";
+  animation: load 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes load {
+  0% {
+    content: "Loading";
+  }
+  33% {
+    content: "Loading.";
+  }
+  67% {
+    content: "Loading..";
+  }
+  100% {
+    content: "Loading...";
+  }
+}
+
+/* CSS */
+.MCQGeneralScreen .button-24 {
+  background: #2bb051;
+  border: 1px solid #0ea65a;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.MCQGeneralScreen .button-24:hover,
+.MCQGeneralScreen .button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #0ea65a;
+}
+
+.MCQGeneralScreen .button-24:active {
+  opacity: 0.5;
+}
+
+.MCQGeneralScreen .button-25 {
+  background: #b02b2b;
+  border: 1px solid #a60e0e;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.MCQGeneralScreen .button-25:hover,
+.MCQGeneralScreen .button-25:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #a60e0e;
+}
+
+.MCQGeneralScreen .button-25:active {
+  opacity: 0.5;
+}

@@ -1,0 +1,184 @@
+.ScoreScreen {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.ScoreScreen .Top {
+  flex: 0 0 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ScoreScreen .Bot {
+  flex: 0 0 90px;
+}
+
+.ScoreScreen .Mid {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  justify-content: center;
+  align-items: center;
+
+  /* background-image: url("../../../assets/Images/kidsgood.jpg"); */
+  background-repeat: no-repeat; /* Optional: specify if you want to repeat the image */
+  background-size: cover; /* Optional: specify the size of the background image */
+}
+
+.ScoreScreen .Mid .Score-view {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 60%;
+  height: auto;
+  padding: 40px;
+  /* background-color: rgb(170, 180, 235); */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Adjust the values to control the shadow */
+  transition: box-shadow 0.3s ease-in-out;
+  opacity: 0.8;
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the values for the hover effect */
+  }
+}
+
+.Score-view .title {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 90px;
+  color: rgb(0, 0, 0);
+}
+
+.Score-view .score {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+}
+
+.Score-view .stars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.Score-view .stars .star {
+  width: 8rem;
+  height: 8rem;
+}
+.Score-view .stars .star.small {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.Score-view .status {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: rgb(31, 33, 131);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.Score-view .custom-btn {
+  width: 500px;
+  height: 80px;
+  color: rgb(0, 0, 0);
+
+  border-radius: 5px;
+
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  /* box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1); */
+  outline: none;
+}
+
+.Score-view .btn-blue {
+  width: 200px;
+  height: 68px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  color: #fff;
+  background: linear-gradient(0deg, rgb(52, 62, 117) 0%, rgb(59, 79, 194) 100%);
+  font-size: 40px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Score-view span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Score-view .btn-blue:hover {
+  color: rgb(52, 62, 117);
+  background: transparent;
+  box-shadow: none;
+}
+
+.Score-view .btn-blue:before,
+.Score-view .btn-blue:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: rgb(59, 79, 194);
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
+  transition: 400ms ease all;
+}
+
+.Score-view .btn-blue:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.Score-view .btn-blue:hover:before,
+.Score-view .btn-blue:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}

@@ -1,0 +1,20 @@
+.InterviewChatScreen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.InterviewChatScreen .msgListMessages2 {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  flex: 1 1 auto;
+}
+
+.InterviewChatScreen .msgListCompose2 {
+  height: 100%;
+  display: flex;
+  /* overflow: auto; */
+  flex: 0 0 150px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,48 @@
+.compose2 {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* background: white; */
+  /* border-top: 1px solid #eeeef1; */
+  border-radius: 10px;
+  /* position: fixed; */
+  /* width: calc(100% - 400px); */
+  /* bottom: 0px; */
+}
+
+/* @supports (backdrop-filter: blur(20px)) {
+  .compose2 {
+    border: none;
+ 
+    backdrop-filter: blur(20px);
+  }
+} */
+
+.compose-input {
+  flex: 1;
+  border: none;
+  font-size: 14px;
+  height: 40px;
+  background: none;
+}
+
+.send-button {
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.compose-input::placeholder {
+  /* opacity: 0.3; */
+}
+
+/* .compose2 .toolbar-button2 {
+  color: #bbbbbf;
+  margin-left: 15px;
+}
+
+.compose2 .toolbar-button2:hover {
+  color: #99999c;
+} */

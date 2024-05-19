@@ -1,0 +1,103 @@
+.message2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.message2 .timestamp {
+  display: flex;
+  justify-content: center;
+  color: #999;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+
+.message2 .bubble-container {
+  font-size: 20px;
+  display: flex;
+}
+
+.message2 .bubble-container .avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  /* background-color: #9bc5f1; */
+}
+
+.message2.mine .bubble-container {
+  justify-content: flex-end;
+}
+
+.message2.mine .bubble-container .avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  /* background-color: #9bc5f1; */
+}
+
+.message2.start .bubble-container .bubble {
+  /* margin-top: 10px; */
+  border-top-left-radius: 20px;
+}
+
+.message2.end .bubble-container .bubble {
+  border-bottom-left-radius: 20px;
+  /* margin-bottom: 10px; */
+}
+
+.message2.mine.start .bubble-container .bubble {
+  margin-top: 10px;
+  border-top-right-radius: 20px;
+}
+
+.message2.mine.end .bubble-container .bubble {
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.message2 .bubble-container .bubble {
+  margin: 1px 0px;
+  background: #ffffff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 75%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message2.mine .bubble-container .bubble {
+  background: #007aff;
+  color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.bubble-container .bubble .messageview {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.bubble-container .bubble .timeview {
+  display: flex;
+  flex: 0 0 10px;
+  font-size: 11px;
+  justify-content: flex-end;
+  color: #c9c7c7;
+}

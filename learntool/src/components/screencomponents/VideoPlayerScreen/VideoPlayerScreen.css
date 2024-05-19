@@ -1,0 +1,188 @@
+.player-self {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.player-top {
+  flex: 0 0 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.player-btm {
+  flex: 0 0 90px;
+}
+
+.palyer-mid {
+  width: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../../assets/AuthScreen/authquiz2.jpg");
+}
+
+.palyer-mid .topic {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 80px;
+}
+
+.palyer-mid .player {
+  width: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.palyer-mid .info {
+  display: flex;
+  flex: 0 0 1px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.player .playercontainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.player .playercontainer .main-video-container {
+  display: flex;
+  flex: 0 0 55%;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(39, 32, 32, 0.1);
+  background-color: #ffffff;
+  padding: 5px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+
+.player .playercontainer .main-video-container .main-video {
+  display: flex;
+  margin-bottom: 2px;
+  border-radius: 2px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.playercontainer .main-video-container .main-vid-title {
+  display: flex;
+  font-size: 16px;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
+.player .playercontainer .video-list-container {
+  display: flex;
+  flex: 0 0 300px;
+  min-height: 300px;
+  max-height: 300px;
+  flex-direction: column;
+  overflow-y: scroll;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.player .playercontainer .listed_data {
+  display: flex;
+  flex: 0 0 300px;
+  flex-direction: column;
+}
+
+.player .playercontainer .video-list-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.player .playercontainer .video-list-container::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.player .playercontainer .video-list-container::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+.player .playercontainer .video-list-container .list {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.player .playercontainer .video-list-container .list:last-child {
+  margin-bottom: 0;
+}
+
+.player .playercontainer .video-list-container .list.active {
+  background-color: #444;
+}
+
+.player .playercontainer .video-list-container .list.active .list-title {
+  color: #fff;
+}
+
+.player .playercontainer .video-list-container .list .list-video {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.player .playercontainer .video-list-container .list .list-title {
+  font-size: 17px;
+  color: #444;
+}
+
+.player-btm-submit {
+  flex: 0 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-btm-submit button {
+  padding: 10px 10px;
+  background-color: white;
+  color: rgb(23, 29, 77);
+  border: 3px solid rgb(23, 29, 77);
+  border-radius: 5px;
+  margin-top: 3px;
+  font-size: 30px;
+  transition-duration: 0.4s;
+  font-weight: 800px;
+  cursor: pointer;
+}
+
+.player-btm-submit button:hover {
+  background-color: rgb(23, 29, 77);
+  color: white;
+}
+
+.player-btm-submit button:disabled,
+.player-btm-submit button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

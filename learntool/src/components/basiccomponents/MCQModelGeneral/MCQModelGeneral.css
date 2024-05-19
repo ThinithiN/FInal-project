@@ -1,0 +1,210 @@
+.MCQModelGeneral .q-cont {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 10%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the color and opacity as needed */
+  z-index: 1; /* Ensure the overlay is on top of the components */
+  pointer-events: none; /* Allows events to pass through the overlay to the components below */
+}
+
+.MCQModelGeneral .q-titile {
+  flex: 0 0 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* padding: 10px; */
+  color: black;
+  font-size: 20px;
+  align-items: center;
+}
+
+.MCQModelGeneral .q-ans-data {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.MCQModelGeneral .q-ans-box {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.MCQModelGeneral .q-ans-image {
+  flex: 0 0 500px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.MCQModelGeneral .q-ans-image img {
+  width: 350px; /* Set your desired width */
+  height: 250px; /* Set your desired height */
+}
+
+.MCQModelGeneral .q-que-box {
+  display: flex;
+  height: auto;
+
+  /* background-color: #ffffff; 
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+
+  padding: 5px; */
+}
+
+.MCQModelGeneral .q-ans-cont1 {
+  /* display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: aqua; */
+}
+
+.MCQModelGeneral .q-ans-cont2 {
+  /* display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(255, 0, 234); */
+}
+
+.MCQModelGeneral .q-ans-left {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  /* padding-left: 20px; */
+  padding-right: 20px;
+  min-width: 100px;
+}
+
+.MCQModelGeneral .q-ans-left:nth-child(1) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.MCQModelGeneral .q-ans-left:nth-child(2) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.MCQModelGeneral .q-ans-right {
+  flex: 0 0 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  padding-right: 20px;
+}
+
+.MCQModelGeneral .q-ans-right:nth-child(1) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.MCQModelGeneral .q-ans-right:nth-child(2) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.MCQModelGeneral .check-input {
+  justify-content: flex-start;
+  padding: 2px;
+  cursor: pointer;
+}
+.MCQModelGeneral .check-input input[type="radio"] {
+  accent-color: rgb(15, 135, 39);
+}
+
+.MCQModelGeneral .answer-text {
+  justify-content: flex-start;
+  text-align: start;
+  padding: 2px;
+  color: black;
+  font-size: 15px;
+}
+
+.MCQModelGeneral .q-ans-time {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.MCQModelGeneral .q-ans-time-left {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 100px;
+  justify-content: flex-end;
+}
+
+.MCQModelGeneral .q-ans-time-right {
+  display: flex;
+  flex: 0 0 100px;
+}
+
+.MCQModelGeneral .q-ans-speak-text-box {
+  flex: 0 0 62px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px;
+  gap: 5px;
+}
+
+.MCQModelGeneral .q-ans-speak-text-box-item1 {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.MCQModelGeneral .q-ans-speak-text-box textarea {
+  width: 80%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none; /* Disable textarea resizing */
+  font-size: 16px;
+  color: #333;
+}
+
+.MCQModelGeneral .viewSlide {
+  margin: 30px;
+}
+
+.MCQModelGeneral .showSlide {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+.MCQModelGeneral .hideSlide {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  border: none;
+}
+
