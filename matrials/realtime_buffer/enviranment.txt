@@ -1,0 +1,17 @@
+:: Install virtualenv if not already installed
+pip install virtualenv
+
+:: Create a virtual environment named 'myenv'
+virtualenv myenv
+
+:: Activate the virtual environment
+call myenv\Scripts\activate
+
+:: Install dependencies into the virtual environment
+pip install package_name
+
+:: Deactivate the virtual environment
+deactivate
+
+
+d
