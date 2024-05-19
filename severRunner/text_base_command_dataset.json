@@ -1,0 +1,698 @@
+{"intents": [
+    {"tag": "it_1",
+     "patterns": [
+        "Yep, I've code some basic stuff with Python.",
+         "I've code with Python to make simple programs.",
+         " Yes, I've used Python for making easy programs."
+        ],
+     "responses": [
+      "response123"
+    ]
+    },
+
+    {"tag": "it_2",
+     "patterns": [
+        "I did a beginner's coding class at school.",
+        "I took a basic programming course in school.",
+        "I learned some coding basics in school."
+    ],
+     "responses": [
+        "response123"
+    ]
+    },
+
+    {"tag": "it_3",
+     "patterns": [
+        "I joined coding contests at my school.",
+        "I took part in coding competitions here.",
+        "I competed in coding events at school"
+    ],
+     "responses": [
+        "response123"
+    ]
+    },
+    {"tag": "it_4",
+    
+     "patterns": [
+        "I've used JavaScript for making things interactive.",
+        "I experimented with JavaScript to create interactive stuff.",
+        "I tried using JavaScript to make things move and respond."
+    ],
+     "responses": [
+        "response123"
+    ]
+    },
+  
+    {"tag": "itn_1",
+     "patterns": [
+        "No.I didn't.",
+        "Nope, I've never had ",
+        "I haven't writing code at all.",
+        "I haven't learned anything about programming.",
+        "I don't know anything about coding",
+        "I haven't checked out any coding stuff .",
+        "I haven't tried any tools or languages for coding.",
+        "I've never tried to coding or programming before.",
+        "I've never had any experience with coding or programming.",
+        "I haven't had a shot at learning programming yet.",
+        "I haven't had the opportunity to learn programming."
+    ],
+     "responses": [
+        "response123"
+    ]
+    },
+
+    {"tag": "it_5",
+    "patterns": [
+        "I've learned a bit of Python coding with spoken tutorials.",
+        "I've explored Python using accessible tools and audio guidance.",
+        "I've practiced Python coding using screen readers and simple exercises.",
+        "I've started Python with help from specialized blind-friendly resources."
+   ],
+    "responses": [
+       "response123"
+   ]
+   },
+
+   {"tag": "it_6",
+   "patterns": [
+    "I've worked with HTML to build websites.",
+    "Using accessible resources, I've created simple web pages with HTML.",
+    "I've used HTML tags to create basic web content.",
+    "I've practiced HTML coding to develop my own basic web designs."
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "it_7",
+   "patterns": [
+    "I've learned a bit of C++ coding with spoken tutorials.",
+    "I've explored C++ using accessible tools and audio guidance.",
+    "I've practiced C++ coding using screen readers and simple exercises.",
+    "I've started C++ with help from specialized blind-friendly resources."
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "it_8",
+   "patterns": [
+    "I've learned a bit of Java coding with spoken tutorials.",
+    "I've explored Java using accessible tools and audio guidance.",
+    "I've practiced Java coding using screen readers and simple exercises.",
+    "I've started Java with help from specialized blind-friendly resources."
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "it_9",
+   "patterns": [
+    "I've learned a bit of JavaScript coding with spoken tutorials.",
+    "I've explored JavaScript using accessible tools and audio guidance.",
+    "I've practiced JavaScript coding using screen readers and simple exercises.",
+    "I've started JavaScript with help from specialized blind-friendly resources."
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "itn_2",
+   "patterns": [
+    "No, I haven't learned any programming languages yet.",
+    "I haven't had the chance to explore programming languages.",
+    "I haven't found the opportunity to learn coding.",
+    "I'm interested, but I haven't started learning any languages.",
+    "I haven't had exposure to programming languages so far."
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "it_10",
+   "patterns": [
+    "Yep, I did a coding course made for blind students.",
+    "Sure, I learned coding in a class for blind learners.",
+    "Yes, I took a special coding course for blind teens.",
+    "Absolutely, I've done a programming class for blind students."
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "it_11",
+   "patterns": [
+    "Yep, I joined coding workshops made for blind students.",
+    "Sure, I've been to coding sessions for kids like me.",
+    "Yes, I've attended workshops designed for visually impaired teens.",
+    "Absolutely, I've taken part in coding workshops for the blind."
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "it_12",
+   "patterns": [
+    "Yep, I joined a coding class that was adapted for us with vision challenges.",
+    "Sure, I learned programming in a class made just for visually impaired students.",
+    "Yes, I took a course where everything was set up for students with visual impairments.",
+    "Absolutely, I was in a programming class that understood and adapted to our needs."
+
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+
+  {"tag": "itn_3",
+  "patterns": [
+    "No, I haven't had the chance to take a programming course yet.",
+    "I haven't found a coding workshop suitable for my accessibility needs.",
+    "I haven't had the opportunity to attend coding workshops for the blind.",
+    "I'm interested, but I haven't found accessible programming courses.",
+    "I haven't participated in any coding workshops due to accessibility barriers."
+ ],
+  "responses": [
+     "response123"
+ ]
+ },
+ {"tag": "it_13",
+   "patterns": [
+    "Yep, I like to develop web applications.",
+    "Sure, I'm excited to create web apps.",
+    "Sure, I'm excited to develop software.",
+    "Yep, I like to develop software."
+
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "it_14",
+   "patterns": [
+    "Totally, I want to create websites which everyone can use.",
+    "Absolutely, I'm all in to make websites which everyone can use.",
+    "Yep, I'm totally up for building software which everyone can use.",
+    "Sure thing, I really want to make websites which everyone can use."
+
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "it_15",
+   "patterns": [
+    "Yep, developing software sounds pretty cool to me.",
+    "Sure, I think developing software is interesting.",
+    "I have a strong interest in software development.",
+    "Absolutely, I find developing software really cool."
+
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+  {"tag": "it_16",
+   "patterns": [
+    "Yep, developing web application sounds pretty cool to me.",
+    "Sure, I think developing web application is interesting.",
+    "I have a strong interest in web application development.",
+    "Absolutely, I find developing web application really cool."
+
+  ],
+   "responses": [
+      "response123"
+  ]
+  },
+
+
+ {"tag": "itn_4",
+  "patterns": [
+    "No, I'm not really interested in building web applications.",
+    "I haven't thought much about creating software at the moment.",
+    "I prefer exploring other areas instead of building software.",
+    "Not really, I have different interests besides web development.",
+    "I'm not particularly drawn to the idea of creating software."
+ ],
+  "responses": [
+     "response123"
+ ]
+ },
+ {"tag": "it_17",
+  "patterns": [
+    "Yep, I like solving problems and thinking logically.",
+    "Sure, I enjoy figuring things out with logical thinking.",
+    "Yes, problem-solving and logical thinking are fun for me.",
+    "Absolutely, I find joy in solving problems and thinking logically.",
+    "Totally, I've used logic to solve problems.",
+    "Yep, I approach problems with logical thinking.",
+    "Sure, I solved challenges using logical steps.",
+    "Absolutely, I've used logic to solve different problems.",
+    "Sure, I enjoy using logic to figure things out.",
+    "Yep, I like solving puzzles with logical thinking.",
+    "Absolutely, I find joy in figuring things out logically.",
+    "Totally, I love using logic to understand things."
+ ],
+  "responses": [
+     "response123"
+ ]
+ },
+ 
+ {"tag": "itn_5",
+  "patterns": [
+   "No, I haven't explored problem-solving much.",
+   "I'm not really into logical thinking activities.",
+   "I haven't had much experience with problem-solving.",
+   "Not really, logical thinking isn't my strong suit.",
+   "No, I haven't focused on developing logical skills yet."
+ ],
+  "responses": [
+     "response123"
+ ]
+ },
+
+
+ {"tag": "bs_1",
+  "patterns": [
+   "Yes, I've led a school project team with my classmates.",
+   "Yep, I led a team for a school project with friends.",
+   "Sure, I was in charge of a class project with my friends.",
+   "Yes, I guided a team for a school assignment.",
+   "Absolutely, I led classmates in a project for school.",
+   "Yep, I guided a team for a school project.",
+   "Sure, I was in charge of a team for a class project.",
+   "Yes, I led classmates in a school project.",
+   "Absolutely, I organized a team for a school assignment."
+ ],
+  "responses": [
+     "response123"
+ ]
+ },
+
+ {"tag": "bs_2",
+  "patterns": [
+   "Absolutely, I managed a coding team for a small project.",
+   "Totally, I led a coding team for a little project.",
+   "Yep, I managed a coding crew for a small task.",
+   "Sure, I was in charge of a coding team for a project.",
+   "Absolutely, I guided a coding team for a small job."
+ ],
+  "responses": [
+     "response123"
+ ]
+ },
+
+ {"tag": "bs_3",
+ "patterns": [
+   "Sure, I organized a team for a community service initiative.",
+   "Yep, I led a team for a community service project.",
+   "Sure, I organized a crew for a community service effort.",
+   "Yes, I guided a team for a community service initiative.",
+   "Absolutely, I was in charge of a team for community service."
+],
+ "responses": [
+    "response123"
+]
+},
+
+{"tag": "bs_4",
+"patterns": [
+   "Yes, I coordinated a group for a blind-friendly game.",
+   "Yep, I led a team for making games accessible to blind players.",
+   "Sure, I organized a crew for developing games for blind users.",
+   "Yes, I guided a group for creating games for the visually impaired.",
+   "Absolutely, I was in charge of a team for blind-friendly game."
+],
+"responses": [
+   "response123"
+]
+},
+
+{"tag": "bsn_1",
+"patterns": [
+   
+"No, I haven't had the chance to manage a team yet.",
+"I'm not interested, but I haven't led a team before.",
+"Not yet, I haven't been in charge of a group project.",
+"I haven't managed a team, i dont have leadership skills.",
+"No, I'm still learning and haven't led a team so far."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bs_5",
+"patterns": [
+   
+   "Yes, I'm curious about how IT works in the business world.",
+   "Absolutely, I'm interested in the business aspects of IT.",
+   "Sure, I want to explore the business side of the IT industry.",
+   "Yes, understanding IT business strategies sounds interesting.",
+   "Totally, I'm keen on the business aspects of IT and technology.",
+   "Yep, I want to know how IT works in businesses.",
+   "Absolutely, I like the business side of IT.",
+   "Sure, I'm into exploring IT from a business angle.",
+   "Yes, learning about IT business strategies is cool.",
+   "Totally, I'm excited about the business side of IT and tech."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bsn_2",
+"patterns": [
+   
+   "No, I'm more focused on the technical side of IT.",
+   "I haven't really thought about the business side of IT.",
+   "Not really, I'm more interested in IT technologies.",
+   "No, I find the technical aspects of IT more appealing.",
+   "I haven't considered the business side of IT much."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bs_6",
+"patterns": [
+   
+  
+"Absolutely, I managed funds for some personal expenses.",
+"Totally, I handled money for personal stuff.",
+"Absolutely, I managed funds for myself.",
+"Yep, I took care of money for personal expenses.",
+"Sure, I managed some money for myself."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bs_7",
+"patterns": [
+
+   "Sure, I've budgeted money for both school and myself.",
+   "Yep, I budgeted money for both school and me.",
+   "Sure, I managed money for school and personal stuff.",
+   "Yes, I made budgets for both school and myself.",
+   "Absolutely, I handled money for both school and me."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bs_8",
+"patterns": [
+
+"Yes, I've successfully managed funds for projects at school.",
+"Yep, I handled money for school projects and it went well.",
+"Sure, I managed funds for school projects, and it worked out.",
+"Yes, I successfully handled money for school projects.",
+"Absolutely, I managed funds for projects at school and it went smoothly."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bs_9",
+"patterns": [
+
+   "Totally, I've been responsible for money in school activities.",
+   "Yep, I handled money for school stuff.",
+   "Sure, I managed funds for school activities.",
+   "Yes, I took care of money for school projects.",
+   "Absolutely, I was in charge of money for school."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bsn_3",
+"patterns": [
+
+   "No, I haven't managed money for school projects yet.",
+   "I'm interested, but I haven't handled money for myself.",
+   "Not yet, I haven't been in charge of school project funds.",
+   "I haven't managed money, but I'm open to learning.",
+   "No, I'm still learning about handling money for projects."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bs_10",
+"patterns": [
+
+   "Yes, I've been part of a business-related club at school.",
+   "Yep, I joined a business-related club at school.",
+   "Sure, I've been in a business club with classmates.",
+   "Yes, I was part of a school club focused on business.",
+   "Absolutely, I joined a business-related group at school."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bs_11",
+"patterns": [
+   "Absolutely, I participated in business activities with classmates.",
+   "Totally, I did business stuff with my classmates.",
+   "Absolutely, I joined in on business activities with friends.",
+   "Yep, I took part in activities related to business with classmates.",
+   "Sure, I participated in business stuff with my schoolmates."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bs_12",
+"patterns": [
+   "Sure, I joined a business-oriented group to learn more.",
+   "Sure, I joined a group to learn about business.",
+   "Yep, I'm in a group to explore more about business.",
+   "Absolutely, I joined a group to understand business better."
+],
+"responses": [
+   "response123"
+]
+},
+
+{"tag": "bs_13",
+"patterns": [
+ "Yes, I've taken part in school events related to business.",
+ "Yep, I joined school events focused on business.",
+ "Sure, I participated in business events at school.",
+ "Yes, I took part in events related to business at school.",
+ "Absolutely, I was involved in school activities centered around business."
+],
+"responses": [
+   "response123"
+]
+},
+
+{"tag": "bs_14",
+"patterns": [
+   "Totally, I enjoy being involved in business-related activities.",
+   "Totally, I like doing business related stuff at school.",
+   "Absolutely, I enjoy being part of business activities.",
+   "Yep, I find joy in being involved in business things.",
+   "Sure, I love taking part in school activities related to business."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bsn_4",
+"patterns": [
+   "No, I haven't participated in any business-related clubs yet.",
+   "I'm interested, but I haven't been part of business activities.",
+   "Not yet, I haven't explored business-related activities much.",
+   "No,I haven't joined any business clubs yet.",
+   "No, I'm more focused on other activities besides business."
+   
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "bs_15",
+"patterns": [
+   "Yes, I'm eager to boost my leadership skills in IT.",
+   "Absolutely, I'm interested to learn about developing leadership.",
+   "Sure, I'm looking to improve my leadership skills in IT.",
+   "Yes, enhancing my leadership skills sounds exciting.",
+   "Totally, I want to grow my leadership abilities."
+],
+"responses": [
+   "response123"
+]
+},
+
+{"tag": "bsn_5",
+"patterns": [
+   "No, I haven't thought much about developing leadership skills.",
+   "No,I'm more focused on learning technical skills than leadership.",
+   "Not really, leadership skills in IT aren't my current priority.",
+   "I haven't considered enhancing leadership skills in IT yet.",
+   "No, I'm more interested in the technical side of IT rather than leadership."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "cs_1",
+"patterns": [
+"Yes, I've learned about information security.",
+"Yes, I learned information security and want to know more.",
+"Yep, studied information security and excited to learn more.",
+"Sure, I know about information security and want to learn more.",
+"Yes, did some information security learning and want to learn more.",
+"Yes, i am familiar with information security"
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "csn_1",
+"patterns": [
+
+"No, I haven't studied information security.",
+"Not yet, information security isn't my focus.",
+"No, I haven't explored information security.",
+"No, I'm not into information security.",
+"No, I am not familiar with information security",
+"No, I don't like information security.",
+"Nope, It is not my preference."
+],
+"responses": [
+   "response123"
+]
+},
+
+{"tag": "cs_2",
+"patterns": [
+
+"Yes, I am curious about protecting digital information.",
+"Absolutely,I am interested in protecting digital information.",
+"Yep, I'm curious about securing digital information. ",
+"Certainly, I'm curious about digital info protection. ",
+"Yes, I am interested in learning how to protect digital information.", 
+"Yes, I want to understand more about protecting digital information."
+],
+"responses": [
+   "response123"
+]
+},
+
+{"tag": "csn_2",
+"patterns": [
+
+"Yes, I am curious about protecting digital information.",
+"Absolutely,I am interested in protecting digital information.",
+"Yep, I'm curious about securing digital information. ",
+"Certainly, I'm curious about digital info protection. ",
+"Yes, I am interested in learning how to protect digital information.", 
+"Yes, I want to understand more about protecting digital information."
+],
+"responses": [
+   "response123"
+]
+},
+
+{"tag": "cs_3",
+"patterns": [
+
+   "Yes, I would like to know about safety concerns.",
+   "Certainly, I am interested in learning safety concerns.",
+   "Yep, I would like to know safety concerns.",
+   "Yes, I would like to know safety concerns.",
+   "Yes, I want to know about safety tips.",
+   "Yep,I am so interested in safety info. ",
+   "Yes,I am so curious about stay safe online."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "csn_3",
+"patterns": [
+   "No, i am not particularly interested in safety concerns.",
+   "No, I am not  interested in safety concerns.",
+   "No, I do not have a special interest in safety concerns."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "cs_4",
+"patterns": [
+
+   "Yes, I did an information security course.",
+   "Yes, I took an information security course.",
+   "Yes, I have done a security course.",
+   "Absolutely, I have joined a information security course.",
+   "Absolutely, I have taken an information security course.",
+   "Yep, I have completed an information security course."
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "cs_5",
+"patterns": [
+
+"Certainly, attended workshops on information security.",
+"Yes, I attended information security workshops.",
+"Yep,I have joined information security workshops.",
+"yes, I went to information security workshops.",
+"Absolutely, I participated in information security workshops.",
+"Yes,I have joined an information security workshops ."
+
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "csn_4",
+"patterns": [
+
+   "No,I haven't taken an information security course.",
+   "Not yet, I never joined an information security workshop or course.",
+   "No, I haven't attended information security courses or workshops.",
+   "Not yet, never took an information security course or attended workshops.",
+   "No, I haven't been part of any information security courses or workshops."
+
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "cs_6",
+"patterns": [
+
+   "Yes, I am so curious about cybersecurity's role in the digital world.",
+   "Yes, I am interested in learning about cybersecurity's role in the digital world.",
+   "Yep, I want to know more about cybersecurity's role in today's digital world.",
+   "Yes, I want to understand importance of cybersecurity's role in the digital world.",
+   " Yes, I am interested in exploring the role of cybersecurity in the digital world."
+   
+
+],
+"responses": [
+   "response123"
+]
+},
+{"tag": "csn_5",
+"patterns": [
+
+   "No, I am not particularly interested in cybersecurity's role in the digital world",
+   "No, I am not feeling a special interest in cybersecurity's role in the digital world.",
+   "No, I do not have a special interest in cybersecurity's role in the digital world"
+
+],
+"responses": [
+   "response123"
+]
+}
+  
+]
+}                                               

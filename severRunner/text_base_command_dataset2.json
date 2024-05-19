@@ -1,0 +1,32 @@
+{"intents": [
+
+
+    {"tag": "cs_1",
+     "patterns": [
+        "cyber security"
+        ],
+     "responses": [
+    "cyber security"
+    ]
+    },
+
+    {"tag": "bs_1",
+    "patterns": [
+       "business"
+       ],
+    "responses": [
+   "business"
+   ]
+   },
+
+   {"tag": "it_1",
+   "patterns": [
+      "programming"
+      ],
+   "responses": [
+  "programming"
+  ]
+  }
+
+]
+}

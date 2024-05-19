@@ -1,0 +1,27 @@
+{"intents": [
+
+    {"tag": "fully_blind",
+     "patterns": [
+        "yes im fully blind",
+         "yes",
+         "fully blind"
+        ],
+     "responses": [
+        "ok you fully blind"
+    ]
+    },
+
+    {"tag": "partially blind",
+     "patterns":[
+        "no i am partially blind",
+        "no",
+        "partially blind."
+    ],
+     "responses": [
+        "ok you partially blind"
+    ]
+    }
+
+
+]
+}

@@ -1,0 +1,127 @@
+{"intents": [
+    {"tag": "it_1",
+     "patterns": [
+        "Yep, I've code some basic stuff with Python.",
+         "I've code with Python to make simple programs.",
+         " Yes, I've used Python for making easy programs."
+        ],
+     "responses": [
+    "Yep, I've code some basic stuff with Python.",
+     "I've code with Python to make simple programs.",
+     " Yes, I've used Python for making easy programs."
+    ]
+    },
+    {"tag": "it_2",
+     "patterns":[
+        "I did a beginner's coding class at school.",
+        "I took a basic programming course in school.",
+        "I learned some coding basics in school."
+    ],
+     "responses": [
+        "I did a beginner's coding class at school.",
+        "I took a basic programming course in school.",
+        "I learned some coding basics in school."
+    ]
+    },
+    {"tag": "it_3",
+     "patterns": [
+        "I joined coding contests at my school.",
+        "I took part in coding competitions here.",
+        "I competed in coding events at school"
+    ],
+     "responses": [
+        "I joined coding contests at my school.",
+        "I took part in coding competitions here.",
+        "I competed in coding events at school"
+    ]
+    },
+    {"tag": "it_4",
+     "patterns": [
+        "I've used JavaScript for making things interactive.",
+        "I experimented with JavaScript to create interactive stuff.",
+        "I tried using JavaScript to make things move and respond."
+    ],
+     "responses": [
+        "I've used JavaScript for making things interactive.",
+        "I experimented with JavaScript to create interactive stuff.",
+        "I tried using JavaScript to make things move and respond."
+    ]
+    },
+    {"tag": "it_1",
+     "patterns": [
+        "I've used JavaScript for making things interactive.",
+        "I experimented with JavaScript to create interactive stuff.",
+        "I tried using JavaScript to make things move and respond."
+    ],
+     "responses": [
+        "I've used JavaScript for making things interactive.",
+        "I experimented with JavaScript to create interactive stuff.",
+        "I tried using JavaScript to make things move and respond."
+    ]
+    },
+    {"tag": "python_negative_1",
+     "patterns": [
+        "No.I didn't.",
+        "Nope, I've never had ",
+        "I haven't  writing code at all."
+    ],
+     "responses": [
+        "No.I didn't.",
+        "Nope, I've never had ",
+        "I haven't  writing code at all."
+    ]
+    },
+    {"tag": "python_negative_2",
+     "patterns": [
+        "I haven't learned anything about computer programming.",
+        "I don't know anything about coding or programming.",
+        "I haven't had any experience with computer programming before."
+    ],
+     "responses": [
+        "I haven't learned anything about computer programming.",
+        "I don't know anything about coding or programming.",
+        "I haven't had any experience with computer programming before."
+    ]
+    },
+
+    {"tag": "python_negative_3",
+     "patterns": [
+        "I haven't checked out any coding stuff or languages.",
+        "I haven't tried any tools or languages for coding.",
+        "I haven't looked into coding tools or learned any programming languages."
+    ],
+     "responses": [
+        "I haven't checked out any coding stuff or languages.",
+        "I haven't tried any tools or languages for coding.",
+        "I haven't looked into coding tools or learned any programming languages."
+    ]
+    },
+    
+    {"tag": "python_negative_4",
+     "patterns": [
+        "I haven't gotten the opportunity to learn programming.",
+        "I haven't had a shot at learning programming yet.",
+        "I haven't had the time or opportunity to start learning programming."
+    ],
+     "responses": [
+        "I haven't gotten the opportunity to learn programming.",
+        "I haven't had a shot at learning programming yet.",
+        "I haven't had the time or opportunity to start learning programming."
+    ]
+    },
+    
+    {"tag": "python_negative_5",
+     "patterns": [
+        "I've never had any contact with coding or programming.",
+       "I've never tried to coding or programming before.",
+        "I've never had any experience with coding or programming."
+    ],
+     "responses": [
+        "I've never had any contact with coding or programming.",
+       "I've never tried to coding or programming before.",
+        "I've never had any experience with coding or programming."
+    ]
+    }
+
+]
+}
